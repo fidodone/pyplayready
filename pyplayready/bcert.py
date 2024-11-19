@@ -6,9 +6,9 @@ from typing import Union
 
 from Crypto.Hash import SHA256
 from Crypto.Signature import DSS
-from construct import Bytes, Const, Int32ub, GreedyRange, Switch, Container, ListContainer
-from construct import Int16ub, Array
-from construct import Struct, this
+from construct_new import Bytes, Const, Int32ub, GreedyRange, Switch, Container, ListContainer
+from construct_new import Int16ub, Array
+from construct_new import Struct, this
 
 from pyplayready.ecc_key import ECCKey
 
